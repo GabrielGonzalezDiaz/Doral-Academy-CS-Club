@@ -90,12 +90,10 @@ public class elemental {
 				System.out.println("Phrase #" + counter + ": Not Elemental");
 			counter++;
 			
-		
-			
 			}
 		
 		scan.close();
-
+		
 		}
-
+	
 	}
