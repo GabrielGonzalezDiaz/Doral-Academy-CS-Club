@@ -24,7 +24,7 @@ public class elemental {
 			return;
 			}
 		for(Node n : s.adj){
-			if(goal.contains(curr + n.val))
+			if(goal.startsWith(curr + n.val))
 				DFS(curr, goal, n);
 			}
 		}
